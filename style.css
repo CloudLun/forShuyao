@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.areas {
+    position: absolute;
+    left: 60px;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 18px;
+    color: white;
+    z-index: 2;
+}
+.areas div {
+    cursor: pointer;
+}
+
+#map {
+    position: absolute;
+    /* border: 1px solid orange; */
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
